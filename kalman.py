@@ -56,7 +56,7 @@ print("Fused RMSE:", np.sqrt(np.mean((estimates - true_positions)**2)))
 
 plt.plot(times, true_positions, label='True Position')
 plt.plot(times, measurements, label='Sensor')
-plt.plot(times, accel_positions, label='Accelerometer only')
+plt.plot(times, accel_positions, label='Accelerometer')
 #plt.plot(times, predictions, label='Physics Prediction')
 plt.plot(times, estimates, label='Estimate')
 plt.xlabel("time (s)")
