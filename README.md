@@ -1,4 +1,4 @@
-# kalman Filter — two-sensor fusion
+# Kalman Filter — Two-Sensor Fusion
 
 A 1-D simulation that combines two unreliable sensors to figure out a drone's
 height. Neither sensor is good enough on its own, but the combination of both
